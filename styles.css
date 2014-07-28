@@ -29,7 +29,7 @@ h1 {
 
 .button:hover {
 	background-color: #cdcdcd;
-	color: yellow;
+	color: rgb(122, 0, 0);
 	cursor: cell;
 }
 
