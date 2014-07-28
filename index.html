@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz App</title>
+	<link rel="stylesheet" href="styles.css" class="css">
+	<link href='http://fonts.googleapis.com/css?family=Meddon|Ledger' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	
+	<!-- welcome screen -->
+	<div id="welcome" class="container">
+		<img src="shakespeare.jpg" alt="shakespeare">
+		<h1>Welcometh to the Shakespearean Quiz</h1>
+		<div class="button" id="start">Start</div>
+	</div>
+
+	<!-- ending screen -->
+	<div id="ending" class="container">
+		<div id="correctanswers">3</div>
+		<h1>Correct answers!</h1>
+		<div class="button" id="startnew">Start new game</div>
+	</div>
+
+
+	<!-- container div for questions with stage background -->
+	<div id="questionstage" class="container">
+		<div id="stagebg">
+			<img src="theaterstage.jpg" alt="stage">
+		</div>
+		<div id="ind_container">
+			<div class="ind" id="ind_q1">1</div>
+			<div class="ind current" id="ind_q2">2</div>
+			<div class="ind" id="ind_q3">3</div>
+			<div class="ind" id="ind_q4">4</div>
+			<div class="ind" id="ind_q5">5</div>
+		</div>
+		<div id="question">
+			<h1 class="question_text">Which one of these plays is a Tragedy</h1>
+			<div id="option1" class="option button">Taming of the Shrew</div>
+			<div id="option2" class="option button">The Tempest</div>
+			<div id="option3" class="option button">Winter's Tale</div>
+			<div id="option3" class="option button">Timon of Athens</div>
+		</div>
+	</div>
+
+</body>
+</html>

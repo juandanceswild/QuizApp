@@ -1,0 +1,101 @@
+body {
+	margin: 0!important;
+}
+
+
+h1 {
+	font-family: 'Meddon', cursive;
+	font-size: 34px;
+}
+
+
+
+.container {
+	width: 100%;
+	height:100%;
+	text-align:center;
+}
+
+.button {
+	font-family: 'Ledger';
+	color:white;
+	background-color: black;
+	width:200px;
+	margin: 0 auto 10px auto;
+	padding:10px;
+	border-radius: 50px;
+}
+
+.button:hover {
+	background-color: #cdcdcd;
+	color: yellow;
+	cursor: cell;
+}
+
+/*STYLES FOR WELCOME SCREEN*/
+
+
+
+/*#questionstage, #welcome {
+	display:none;
+}
+*/
+
+/*STYLES FOR QUESTION SCREEN*/
+
+div#stagebg {
+	z-index: -1000;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#stagebg img {
+	width: 100%;
+	height: 100%;
+	z-index: inherit;
+}
+
+.ind {
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	display:inline-block;
+	margin-right: 30px;
+	background-color:rgba(255, 63, 63, 0.65);
+	font-family: 'Meddon';
+}
+
+.current {
+	background-color: rgba(255, 255, 0, 0.76);
+}
+
+#ind_container {
+	width:100%;
+	padding-top: 40px;
+}
+
+#question {
+	margin-top: 10%;
+}
+
+.question_text {
+	color:white;
+	margin-bottom:40px; 
+}
+
+/*STYLES FOR ENDING SCREEN*/
+
+#correctanswers {
+	font-family: 'Meddon';
+	font-size: 180px;
+}
+
+#ending {
+	margin-top:5%!important;
+}
+
+#startnew {
+	margin-top: 40px;
+}
