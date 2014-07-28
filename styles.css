@@ -17,7 +17,7 @@ h1 {
 }
 
 .button {
-	font-family: 'Ledger';
+	font-family: 'Open Sans', sans-serif;
 	color:white;
 	background-color: rgb(0, 0, 0);
 	width:260px;
