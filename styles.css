@@ -18,8 +18,8 @@ h1 {
 
 .button {
 	font-family: 'Ledger';
-	color:white;
-	background-color: black;
+	color:black;
+	background-color: rgba(255, 255, 255, 0.56);
 	width:200px;
 	margin: 0 auto 10px auto;
 	padding:10px;
