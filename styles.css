@@ -18,8 +18,8 @@ h1 {
 
 .button {
 	font-family: 'Ledger';
-	color:black;
-	background-color: rgba(255, 255, 255, 0.56);
+	color:white;
+	background-color: rgba(0, 0, 0, 0.56);
 	width:200px;
 	margin: 0 auto 10px auto;
 	padding:10px;
@@ -83,6 +83,11 @@ div#stagebg {
 .question_text {
 	color:white;
 	margin-bottom:40px; 
+}
+
+.option {
+	color:black;
+	background-color: rgba(255, 255, 255, 0.56);
 }
 
 /*STYLES FOR ENDING SCREEN*/
