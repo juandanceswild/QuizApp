@@ -40,6 +40,7 @@ function StartGame(){
 
 };
 
+//set top indicators for current question
 function setIndicators () {
 	//set indicators
 	$("#ind_q"+(questionCounter+1)).addClass("current");
@@ -63,6 +64,7 @@ function loadQuestion(){
 	};
 }
 
+//evaluates if user pick is correct or not and changes css accordingly
 function evalAnswer(useranswer,answer,id) {
 	if(useranswer==answer) {
 		$("#"+id).addClass("correct");
@@ -76,6 +78,7 @@ function evalAnswer(useranswer,answer,id) {
 	}
 }
 
+//finds the location of the correct answer in the object
 function findAnswer(answer){
 	for (i=1;i<5;i++){ 
 		var correctanswermethod = "option"+i;
@@ -85,6 +88,7 @@ function findAnswer(answer){
 	}
 }
 
+//changes screen to ending
 function endGame() {
 	$("#questionstage").fadeOut(400);
 	function fadeinending() {$("#ending").fadeIn("slow");}
