@@ -5,6 +5,8 @@
 	<title>Quiz App</title>
 	<link rel="stylesheet" href="styles.css" class="css">
 	<link href='http://fonts.googleapis.com/css?family=Meddon|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="app.js"></script>
 </head>
 <body>
 	
@@ -12,15 +14,10 @@
 	<div id="welcome" class="container">
 		<img src="shakespeare.jpg" alt="shakespeare">
 		<h1>Welcometh to the Shakespearean Quiz</h1>
-		<div class="button" id="start">Start</div>
+		<div class="button startnew" id="">Start</div>
 	</div>
 
-	<!-- ending screen -->
-	<div id="ending" class="container">
-		<div id="correctanswers">3</div>
-		<h1>Correct answers!</h1>
-		<div class="button" id="startnew">Start new game</div>
-	</div>
+	
 
 
 	<!-- container div for questions with stage background -->
@@ -37,11 +34,18 @@
 		</div>
 		<div id="question">
 			<h1 class="question_text">Which one of these plays is a Tragedy</h1>
-			<div id="option1" class="option button correct">Taming of the Shrew</div>
+			<div id="option1" class="option button correct">Stabbed and baked into a pie</div>
 			<div id="option2" class="option button">The Tempest</div>
 			<div id="option3" class="option button wrong">Winter's Tale</div>
-			<div id="option3" class="option button">Timon of Athens</div>
+			<div id="option4" class="option button">Timon of Athens</div>
 		</div>
+	</div>
+
+	<!-- ending screen -->
+	<div id="ending" class="container">
+		<div id="correctanswers">3</div>
+		<h1>Correct answers!</h1>
+		<div class="button startnew" id="">Start again</div>
 	</div>
 
 </body>
